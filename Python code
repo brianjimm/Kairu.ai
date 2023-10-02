@@ -1,0 +1,17 @@
+print ("enter your name:")
+x=input()
+#the above code lets you enter your name.
+
+print("I assist you get suppliers on various
+      products.kindly type the product you need
+      i assist you with the contacts,"+x)
+print ("enter the product name:")
+y=input()
+#based on the product you need, this feature
+pulls the necessary supplier contact.
+
+import random
+mylist=["Tembo suppliers-01000560011",
+       "Simba distributors-0146805008",
+       "kifaru suppliers-01000009876"]
+print (random.choice(mylist))
